@@ -1,6 +1,6 @@
 # AI/ML Customer Churn Data Platform
 
-Production-oriented machine learning platform demonstrating how a Senior Data Engineer can build the data foundation, ML pipeline, and MLOps lifecycle for customer churn prediction.
+A machine learning pipeline for predicting customer churn, covering data preparation, feature engineering, model training, batch scoring, and model monitoring.
 
 ## Architecture
 
@@ -44,20 +44,20 @@ Optional AI operations:
 Aggregate monitoring metrics -> Amazon Bedrock -> incident summary
 ```
 
-## Senior Data Engineering Focus
+## What the project covers
 
-- Source-to-feature data pipeline designed for repeatable ML training.
+- Source-to-feature data pipeline for repeatable model training.
 - PySpark transformations for scalable feature preparation.
-- Point-in-time aware feature generation to reduce training leakage risk.
-- Reproducible model training with explicit feature/schema contracts.
-- MLflow tracking and model registry integration point.
+- Point-in-time aware feature generation to reduce training leakage.
+- Reproducible training with explicit feature and schema contracts.
+- MLflow tracking and model registry integration.
 - Batch scoring and prediction persistence for downstream analytics.
 - Data-quality checks before training and scoring.
 - Model-performance and feature-drift monitoring.
 - Airflow orchestration for training, scoring, and monitoring workflows.
-- Terraform for AWS infrastructure definitions.
-- CI executes unit and ML tests without requiring AWS credentials.
-- Optional Bedrock integration for operational summaries only; AI never bypasses deterministic quality gates.
+- Terraform definitions for AWS infrastructure.
+- CI tests that run without AWS credentials.
+- Optional Bedrock integration for operational summaries; model/data quality rules remain deterministic.
 
 ## Technology Stack
 
@@ -73,7 +73,7 @@ src/
   predict.py            # batch scoring
   monitor.py            # drift/performance metrics
   ai_insights.py        # optional Bedrock operational summaries
-  storage.py             # S3 persistence adapter
+  storage.py            # S3 persistence adapter
 
 dags/
   churn_ml_pipeline.py  # Airflow orchestration
@@ -108,7 +108,7 @@ python -m pip install -r requirements-dev.txt
 python -m pytest -q
 ```
 
-The CI pipeline intentionally excludes cloud credentials and external service calls. AWS/MLflow/Bedrock integrations are isolated behind adapters so the test suite remains deterministic and fast.
+The CI workflow avoids cloud credentials and external service calls. AWS, MLflow, and Bedrock integrations are isolated behind adapters so the test suite stays deterministic and fast.
 
 ## ML Lifecycle
 
