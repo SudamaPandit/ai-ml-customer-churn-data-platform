@@ -44,6 +44,8 @@ Optional AI operations:
 Aggregate monitoring metrics -> Amazon Bedrock -> incident summary
 ```
 
+<img width="1536" height="1024" alt="AIML Customer Churn Data Platform" src="https://github.com/user-attachments/assets/4f7ea34e-2efd-47f8-b654-2a9016f440da" />
+
 ## What the project covers
 
 - Source-to-feature data pipeline for repeatable model training.
