@@ -1,126 +1,123 @@
-# AI/ML Customer Churn Data Platform
+# Customer Churn Prediction Pipeline
 
-A machine learning pipeline for predicting customer churn, covering data preparation, feature engineering, model training, batch scoring, and model monitoring.
+Batch ML pipeline that scores customers weekly on churn risk — from raw
+transactional data to a monitored model in production. Built to mirror how
+I'd actually stand this up at work: reproducible features, a model registry,
+drift monitoring, and no manual steps between "new data lands" and
+"predictions are refreshed."
+
+## Why this shape
+
+Churn models rot quietly. The usual failure mode isn't a crash — it's
+someone six months later scoring on a feature set that's subtly different
+from what the model was trained on, or a training set that leaked
+future information into the labels. So the two things I optimized for
+here weren't accuracy, they were:
+
+- **Point-in-time correctness** — features are built only from data that
+  would have actually been available at prediction time. No accidental
+  leakage from "future" columns during training.
+- **A feature/schema contract that can't drift silently** — `data_quality.py`
+  runs before training *and* before every scoring run, and it fails loudly
+  rather than scoring against a dataset that's changed shape underneath it.
 
 ## Architecture
 
-```text
-PostgreSQL / Source Data
-        |
-        v
-   AWS S3 Bronze
-        |
-        v
- AWS Glue / PySpark
-        |
-        +--> Data Quality
-        |
-        v
-   S3 Silver / Features
-        |
-        v
- Feature Engineering (Python)
-        |
-        +------------------+
-        |                  |
-        v                  v
-   ML Training        Batch Scoring
- XGBoost / sklearn         |
-        |                  v
-        v             Predictions
-      MLflow                 |
-        |                   v
-        v             Redshift / S3 Gold
-   Model Registry           |
-        |                   v
-        +------------> Monitoring
-                          |
-                    Drift / Quality
-                          |
-                          v
-                 Airflow / Alerts
-
-Optional AI operations:
-Aggregate monitoring metrics -> Amazon Bedrock -> incident summary
 ```
+Source data (Postgres)
+       │
+       ▼
+  S3 raw landing
+       │
+       ▼
+  Glue/PySpark ── feature prep at scale
+       │
+       ▼
+  S3 feature store (silver)
+       │
+   ┌───┴────┐
+   ▼        ▼
+Training  Batch scoring
+(XGBoost/  │
+sklearn)   ▼
+   │     Predictions → S3/Redshift
+   ▼
+MLflow (tracking + registry)
+   │
+   ▼
+Drift & performance monitoring ── Airflow-orchestrated, alerts on threshold breach
+```
+<img width="1536" height="1024" alt="AIML Customer Churn Data Platform" src="https://github.com/user-attachments/assets/94f90c20-deea-4860-bf2f-f2c1d39b7b46" />
 
-<img width="1536" height="1024" alt="AIML Customer Churn Data Platform" src="https://github.com/user-attachments/assets/4f7ea34e-2efd-47f8-b654-2a9016f440da" />
 
-## What the project covers
+An optional step summarizes monitoring anomalies via Bedrock — see
+"On the Bedrock piece" below for how that's scoped.
 
-- Source-to-feature data pipeline for repeatable model training.
-- PySpark transformations for scalable feature preparation.
-- Point-in-time aware feature generation to reduce training leakage.
-- Reproducible training with explicit feature and schema contracts.
-- MLflow tracking and model registry integration.
-- Batch scoring and prediction persistence for downstream analytics.
-- Data-quality checks before training and scoring.
-- Model-performance and feature-drift monitoring.
-- Airflow orchestration for training, scoring, and monitoring workflows.
-- Terraform definitions for AWS infrastructure.
-- CI tests that run without AWS credentials.
-- Optional Bedrock integration for operational summaries; model/data quality rules remain deterministic.
+## Repository structure
 
-## Technology Stack
-
-Python, SQL, PostgreSQL, Pandas, NumPy, scikit-learn, XGBoost, PySpark, MLflow, Apache Airflow, Amazon S3, AWS Glue, Amazon Redshift, Amazon SageMaker, Terraform, Docker, GitHub Actions, Amazon Bedrock.
-
-## Repository Structure
-
-```text
+```
 src/
-  data_quality.py       # deterministic dataset validation
-  features.py           # reusable feature engineering
-  train.py              # model training and evaluation
-  predict.py            # batch scoring
-  monitor.py            # drift/performance metrics
-  ai_insights.py        # optional Bedrock operational summaries
-  storage.py            # S3 persistence adapter
-
-dags/
-  churn_ml_pipeline.py  # Airflow orchestration
-
-glue/
-  prepare_features.py   # distributed feature preparation
-
-sql/
-  schema.sql
-  analytics.sql
-
-infra/
-  main.tf
-  variables.tf
-
-tests/
-  test_data_quality.py
-  test_features.py
-  test_train.py
-  test_predict.py
-  test_monitor.py
-  test_ai_insights.py
-
-.github/workflows/
-  ci.yml
+  data_quality.py   deterministic validation — nulls, ranges, dupes, target sanity
+  features.py       point-in-time feature construction
+  train.py          training + evaluation, logs to MLflow
+  predict.py        batch scoring
+  monitor.py        drift + performance metrics vs. training baseline
+  ai_insights.py     optional Bedrock summarization of monitoring output
+  storage.py        S3 adapter, isolated so it's mockable in tests
+dags/churn_ml_pipeline.py   Airflow DAG wiring the above together
+glue/prepare_features.py   the distributed version of feature prep
+sql/                        schema + analytics queries
+infra/                      Terraform for the AWS pieces
+tests/                       unit tests, run without any AWS/MLflow credentials
 ```
 
-## Local Test
+## Running it locally
 
 ```bash
 python -m pip install -r requirements-dev.txt
 python -m pytest -q
 ```
 
-The CI workflow avoids cloud credentials and external service calls. AWS, MLflow, and Bedrock integrations are isolated behind adapters so the test suite stays deterministic and fast.
+Everything that touches AWS, MLflow, or Bedrock sits behind an adapter
+(`storage.py`, the MLflow client wrapper, `ai_insights.py`), so the test
+suite runs fully offline and fast. That's also just good practice —
+I didn't want a CI run to depend on a live AWS account existing.
 
-## ML Lifecycle
+## How I actually ran the AWS parts
 
-1. Ingest source/customer history.
-2. Validate schema, nulls, ranges, duplicates, and target quality.
-3. Build reusable features using historical information only.
-4. Train and evaluate the churn classifier.
-5. Track metrics and parameters in MLflow.
-6. Register the candidate model.
-7. Batch-score current customers.
-8. Persist predictions for analytics and retention workflows.
-9. Monitor input drift and model performance.
-10. Use optional AI assistance to summarize operational anomalies for engineers.
+I didn't keep a Glue cluster or Redshift instance running for a personal
+project — that adds up fast with no offsetting value. What I did:
+
+- Developed and unit-tested the Spark logic locally against sample data
+  (same PySpark APIs Glue uses under the hood).
+- Ran the Glue job itself a handful of times against S3 free-tier storage
+  to validate it end-to-end and capture logs/output — a few hundred rupees
+  total, not an ongoing cost.
+- Swapped Redshift for Postgres for the "warehouse" layer, since the point
+  I'm demonstrating is the data-modeling and access pattern, not Redshift's
+  specific columnar internals.
+- SageMaker is referenced as the natural home for training at real scale,
+  but training here runs locally — the pipeline code doesn't care where
+  the compute happens.
+
+## On the Bedrock piece
+
+The monitoring step can optionally send *aggregate* metrics (row counts,
+drift scores, null-rate deltas — never raw customer data) to Bedrock to
+draft a plain-English incident summary. It's explicitly advisory: the
+actual pass/fail gate is the deterministic checks in `data_quality.py` and
+`monitor.py`. I added this because "engineer bolts an LLM onto everything"
+is an easy trap, and I wanted the boundary between "deterministic gate"
+and "AI-assisted convenience" to be obvious in the code, not just the docs.
+
+## What I'd change at real production scale
+
+- Feature store would move to something purpose-built (Feast, or a
+  warehouse-native feature layer) instead of flat S3/Parquet — this works
+  for a batch-weekly use case but wouldn't scale to many models sharing
+  features.
+- Model rollback is currently manual via the MLflow registry UI; I'd wire
+  automatic rollback on monitoring-threshold breach.
+- No online/real-time scoring path — this is batch-only by design, but a
+  churn-intervention system usually wants at least a near-real-time trigger
+  eventually.
