@@ -1,0 +1,1213 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Outlines 63 0 R /PageMode /UseOutlines >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 22 /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R 45 0 R 47 0 R 49 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Length 1398 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (1) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Customer Churn ML Pipeline - Complete Guide) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 640 95 5 re f
+BT /FB 32 Tf 0.055 0.11 0.20 rg 52 590 Td (Customer Churn ML Pipeline) Tj ET
+BT /FB 20 Tf 0.06 0.27 0.48 rg 52 548 Td (Complete Project Guide) Tj ET
+BT /FB 20 Tf 0.06 0.27 0.48 rg 52 518 Td (& Interview Handbook) Tj ET
+BT /FR 12 Tf 0.30 0.34 0.39 rg 52 460 Td (Prepared for Sudama Pandit) Tj ET
+BT /FR 10 Tf 0.30 0.34 0.39 rg 52 438 Td (SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+0.94 0.96 0.98 rg 52 310 508 82 re f
+BT /FB 11 Tf 0.08 0.25 0.43 rg 68 365 Td (POSITIONING) Tj ET
+BT /FR 10 Tf 0.12 0.15 0.19 rg 68 345 Td (The repository contains a valid local batch ML workflow with offline tests, SQL) Tj ET
+BT /FR 10 Tf 0.12 0.15 0.19 rg 68 331 Td (prediction history, monitoring calculations and an S3 adapter. It does not) Tj ET
+BT /FR 10 Tf 0.12 0.15 0.19 rg 68 317 Td (implement model persistence/registry, deployable orchestration, end-to-end Glue,) Tj ET
+BT /FR 10 Tf 0.12 0.15 0.19 rg 68 303 Td (automated retraining or production serving.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 1216 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (2) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Clickable Contents) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 675 Td (1. Executive summary) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 670 m 545 670 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 633 Td (2. Beginner foundations) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 628 m 545 628 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 591 Td (3. Architecture diagram) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 586 m 545 586 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 549 Td (4. End-to-end data flow) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 544 m 545 544 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 507 Td (5. Repository structure) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 502 m 545 502 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 465 Td (6. Folder-wise code walkthrough) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 460 m 545 460 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 423 Td (7. Quality, reliability and security) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 418 m 545 418 l S
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 8 0 R /Annots [50 0 R 51 0 R 52 0 R 53 0 R 54 0 R 55 0 R 56 0 R] >>
+endobj
+10 0 obj
+<< /Length 1102 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (3) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Clickable Contents \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 690 Td (8. Testing and CI evidence) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 685 m 545 685 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 648 Td (9. Gaps and critical risks) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 643 m 545 643 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 606 Td (10. Production-ready redesign) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 601 m 545 601 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 564 Td (11. Fifty interview questions) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 559 m 545 559 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 522 Td (12. Rapid revision sheet) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 517 m 545 517 l S
+BT /FB 11 Tf 0.08 0.25 0.43 rg 64 480 Td (13. Glossary) Tj ET
+0.82 0.86 0.90 RG 0.5 w 64 475 m 545 475 l S
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 10 0 R /Annots [57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R] >>
+endobj
+12 0 obj
+<< /Length 3033 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (4) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Executive Summary) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (What this project is) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (A batch machine-learning example validates customer data, creates reproducible) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (tenure-normalized features, trains a scaled class-weighted logistic regression model, scores) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 630 Td (churn probability and risk bands, calculates PSI/performance metrics, and can serialize) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 617 Td (predictions as Parquet to S3.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 599 Td (Business value) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 574 Td (A retention team needs a prioritized list of customers at risk of leaving. The pipeline) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 561 Td (converts customer tenure, charges and support behavior into a reproducible risk score that can) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 548 Td (drive controlled outreach. Monitoring is necessary because feature distributions and model) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 535 Td (quality change over time.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 517 Td (60-second interview introduction) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 492 Td (I built a batch churn-scoring implementation focused on reliable data inputs and consistent) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 479 Td (features. It validates schema and numeric ranges, uses the same feature code for training and) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 466 Td (inference, trains a scaled class-weighted logistic regression, returns ROC-AUC and average) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 453 Td (precision, assigns risk bands and calculates PSI and classification monitoring. Tests cover) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 440 Td (validation, reproducibility, scoring and monitoring. It is not a full MLOps deployment because) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 427 Td (registry, orchestration, temporal label construction and automated retraining are not) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 414 Td (implemented.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 396 Td (Honest status) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 371 Td (The repository contains a valid local batch ML workflow with offline tests, SQL prediction) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 358 Td (history, monitoring calculations and an S3 adapter. It does not implement model) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 345 Td (persistence/registry, deployable orchestration, end-to-end Glue, automated retraining or) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 332 Td (production serving.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 2373 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (5) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Beginner Foundations) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 681 Td (Use this section to learn the vocabulary before studying the code. A data pipeline moves data) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 668 Td (through controlled stages. ETL means extract from a source, transform into a useful and) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 655 Td (reliable shape, and load into a destination.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 637 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 637 Td (Supervised learning trains from features plus a known label; churned is the target.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 622 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 622 Td (Training-serving skew occurs when training and scoring calculate features differently.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 607 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 607 Td (Class imbalance means churn examples may be rarer; class_weight=balanced adjusts model) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 595 Td (loss.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 580 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 580 Td (ROC-AUC measures ranking across thresholds; average precision is often informative for) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 568 Td (rare positive classes.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 553 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 553 Td (Drift means current feature distributions differ from the reference, but drift alone) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 541 Td (does not prove performance loss.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 526 Td (How to study the repository) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 501 Td (First memorize the business flow, then trace one record through every component. Next learn) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 488 Td (which parts are actual runtime code, which are offline helpers, and which capabilities are) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 475 Td (missing. In interviews, evidence matters more than broad claims.) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 3372 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (6) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Architecture Diagram) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 681 Td (The solid flow is implemented in code. Dashed or lighter notes mark external dependencies or) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 668 Td (incomplete production capabilities.) Tj ET
+0.98 0.93 0.86 rg 35 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 35 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 42 500 Td (Customer) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 42 490 Td (features) Tj ET
+0.96 0.48 0.10 RG 2 w 129 494 m 136 494 l S
+0.96 0.48 0.10 rg 132 490 7 8 re f
+0.90 0.95 0.99 rg 139 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 139 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 146 500 Td (Quality) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 146 490 Td (contract) Tj ET
+0.96 0.48 0.10 RG 2 w 233 494 m 240 494 l S
+0.96 0.48 0.10 rg 236 490 7 8 re f
+0.98 0.93 0.86 rg 243 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 243 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 250 500 Td (Feature) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 250 490 Td (engineering) Tj ET
+0.96 0.48 0.10 RG 2 w 337 494 m 344 494 l S
+0.96 0.48 0.10 rg 340 490 7 8 re f
+0.90 0.95 0.99 rg 347 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 347 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 354 500 Td (Train / score) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 354 490 Td (sklearn) Tj ET
+0.96 0.48 0.10 RG 2 w 441 494 m 448 494 l S
+0.96 0.48 0.10 rg 444 490 7 8 re f
+0.98 0.93 0.86 rg 451 470 94 48 re f
+0.10 0.30 0.50 RG 1 w 451 470 94 48 re S
+BT /FB 8 Tf 0.08 0.18 0.28 rg 458 500 Td (Predictions) Tj ET
+BT /FB 8 Tf 0.08 0.18 0.28 rg 458 490 Td (S3 + SQL) Tj ET
+0.91 0.95 0.98 rg 118 585 376 55 re f
+0.10 0.30 0.50 RG 1 w 118 585 376 55 re S
+BT /FB 11 Tf 0.08 0.18 0.28 rg 140 616 Td (MONITORING LAYER: PSI, ROC-AUC, positive prediction rate, optional AI summary) Tj ET
+BT /FR 8.5 Tf 0.20 0.25 0.31 rg 140 598 Td (Training and scoring are local functions; registry and deployed orchestration are not included.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 650 Td (How to explain this diagram) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 625 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 625 Td (The input schema contains customer_id, tenure, charges, tickets and the training label.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 610 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 610 Td (Validation rejects duplicates, missing/non-finite values, negative measures and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 598 Td (non-binary targets.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 583 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 583 Td (One shared build_features function reduces training-serving skew.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 568 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 568 Td (Logistic regression outputs probabilities that are mapped to LOW/MEDIUM/HIGH bands.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 553 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 553 Td (Monitoring functions compute PSI and performance when labels are available; S3) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 541 Td (publication is optional.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 2350 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (7) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (End-to-End Data Flow) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (Step 1 - Validate training data) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (The quality function checks required columns, non-empty input, unique customer IDs,) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (finite/non-negative numeric fields and a binary churn label.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 625 Td (Step 2 - Build features) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 600 Td (tenure_months, monthly_charges and support_tickets are converted to numeric values. Charges) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 587 Td (and tickets are divided by tenure clipped to at least one month.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 569 Td (Step 3 - Split and train) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 544 Td (The data is stratified into train/test sets. StandardScaler and LogisticRegression form one) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 531 Td (sklearn Pipeline with balanced class weights.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 513 Td (Step 4 - Evaluate) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 488 Td (The held-out probabilities produce ROC-AUC and average precision. The function returns the) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 475 Td (trained Pipeline and metrics.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 457 Td (Step 5 - Score customers) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 432 Td (The same feature builder is used, predict_proba creates churn_probability and pd.cut assigns) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 419 Td (LOW, MEDIUM or HIGH risk.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 401 Td (Step 6 - Monitor and publish) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 376 Td (PSI compares reference/current numeric distributions; classification monitoring uses labels) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 363 Td (and probabilities. Predictions can be written as Parquet to S3 and represented historically in) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 350 Td (PostgreSQL.) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 3573 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (8) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Repository Structure) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 681 Td (This table explains what every important folder contributes and whether it is used by the main) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 668 Td (runtime path.) Tj ET
+0.08 0.25 0.43 rg 52 634 510 20 re f
+BT /FB 8 Tf 1 1 1 rg 57 642 Td (Path) Tj ET
+BT /FB 8 Tf 1 1 1 rg 202 642 Td (Purpose) Tj ET
+BT /FB 8 Tf 1 1 1 rg 407 642 Td (Runtime truth) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 622 Td (.github/workflows/ci.yml) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 622 Td (Compile and pytest) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 622 Td (Offline CI) Tj ET
+0.96 0.97 0.98 rg 52 594 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 602 Td (src/data_quality.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 602 Td (Training data contract) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 602 Td (Called by train_model; tested) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 582 Td (src/features.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 582 Td (Shared features) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 582 Td (Called by training and scoring) Tj ET
+0.96 0.97 0.98 rg 52 554 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 562 Td (src/train.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 562 Td (Split, scale, train, evaluate) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 562 Td (Local implementation; tested) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 542 Td (src/predict.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 542 Td (Probability and risk bands) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 542 Td (Local batch scoring; tested) Tj ET
+0.96 0.97 0.98 rg 52 514 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 522 Td (src/monitor.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 522 Td (PSI and classification metrics) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 522 Td (Tested) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 502 Td (src/storage.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 502 Td (Parquet to S3 adapter) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 502 Td (Implemented; not tested in CI) Tj ET
+0.96 0.97 0.98 rg 52 474 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 482 Td (src/ai_insights.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 482 Td (Optional Bedrock summary) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 482 Td (Disabled by default) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 462 Td (glue/prepare_features.py) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 462 Td (Spark feature expressions) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 462 Td (Not complete Glue entry point) Tj ET
+0.96 0.97 0.98 rg 52 434 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 442 Td (sql/schema.sql) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 442 Td (Prediction history table) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 442 Td (External application) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 422 Td (sql/analytics.sql) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 422 Td (Risk-band reports) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 422 Td (Not database tested) Tj ET
+0.96 0.97 0.98 rg 52 394 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 402 Td (tests/) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 202 402 Td (Quality, ML, monitoring, AI) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 407 402 Td (Runs in CI) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 4507 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (9) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Folder-wise Code Walkthrough) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (src/data_quality.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (Applies a strict contract before training and returns basic dataset metrics.) Tj ET
+0.955 0.965 0.975 rg 46 600 520 46 re f
+0.80 0.84 0.88 RG 0.6 w 46 600 520 46 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 638 Td (numeric = df[NUMERIC_COLUMNS].apply\(pd.to_numeric, errors="coerce"\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 628 Td (if numeric.isna\(\).any\(\).any\(\) or not np.isfinite\(numeric.to_numpy\(\)\).all\(\):) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 618 Td (raise ValueError\("numeric features must be finite numbers"\)) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 590 Td (Interview meaning: This prevents silent NaN/inf propagation and cryptic sklearn failures.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 572 Td (src/features.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 547 Td (Validates base features and creates tenure-normalized ratios for both training and scoring.) Tj ET
+0.955 0.965 0.975 rg 46 491 520 46 re f
+0.80 0.84 0.88 RG 0.6 w 46 491 520 46 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 529 Td (denominator = result["tenure_months"].clip\(lower=1\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 519 Td (result["charges_per_tenure_month"] = result["monthly_charges"] / denominator) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 509 Td (result["tickets_per_tenure_month"] = result["support_tickets"] / denominator) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 481 Td (Interview meaning: Shared code reduces training-serving skew, but feature semantics must still) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 468 Td (be point-in-time correct.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 450 Td (src/train.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 425 Td (Validates class support, uses a stratified holdout and keeps preprocessing inside the model) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 412 Td (Pipeline.) Tj ET
+0.955 0.965 0.975 rg 46 346 520 56 re f
+0.80 0.84 0.88 RG 0.6 w 46 346 520 56 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 394 Td (Pipeline\([) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 384 Td (\("preprocess", ColumnTransformer\([\("scale", StandardScaler\(\), FEATURE_COLUMNS\)]\)\),) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 374 Td (\("model", LogisticRegression\(class_weight="balanced", random_state=seed\)\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 364 Td (]\)) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 336 Td (Interview meaning: The fixed split is reproducible, but temporal/customer leakage and robust) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 323 Td (cross-validation still need consideration.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 305 Td (src/predict.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 280 Td (Uses predict_proba and maps probabilities to operational bands.) Tj ET
+0.955 0.965 0.975 rg 46 214 520 56 re f
+0.80 0.84 0.88 RG 0.6 w 46 214 520 56 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 262 Td (probabilities = model.predict_proba\(features\)[:, 1]) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 252 Td (pd.cut\(probabilities,) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 242 Td (bins=[-0.01, 0.33, 0.66, 1.0],) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 232 Td (labels=["LOW", "MEDIUM", "HIGH"]\)) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 204 Td (Interview meaning: Thresholds are illustrative and should be selected with business) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 191 Td (capacity/cost, then versioned.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 173 Td (src/monitor.py) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 148 Td (PSI uses reference quantile bins with infinite outer edges so out-of-range current values are) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 135 Td (counted.) Tj ET
+0.955 0.965 0.975 rg 46 89 520 36 re f
+0.80 0.84 0.88 RG 0.6 w 46 89 520 36 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 117 Td (edges[0], edges[-1] = -np.inf, np.inf) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 107 Td (return float\(\(\(cur - ref\) * np.log\(cur / ref\)\).sum\(\)\)) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 79 Td (Interview meaning: PSI is a drift signal, not direct evidence of model accuracy.) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 1143 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (10) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Continued) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (sql/schema.sql) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (Stores multiple prediction dates per customer using a composite primary key.) Tj ET
+0.955 0.965 0.975 rg 46 600 520 46 re f
+0.80 0.84 0.88 RG 0.6 w 46 600 520 46 re S
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 638 Td (PRIMARY KEY \(customer_id, prediction_date\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 628 Td (CHECK \(churn_probability BETWEEN 0 AND 1\)) Tj ET
+BT /FM 7.6 Tf 0.12 0.20 0.28 rg 52 618 Td (CHECK \(risk_band IN \('LOW', 'MEDIUM', 'HIGH'\)\)) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 590 Td (Interview meaning: The earlier single-customer key would overwrite history; the composite key) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 577 Td (preserves snapshots.) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 2579 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (11) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Quality, Reliability and Security) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (Input contract) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (Training rejects empty, duplicate, non-finite, negative and non-binary data. Scoring feature) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (construction also validates feature inputs.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 625 Td (Feature consistency) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 600 Td (Training and inference share build_features, reducing code skew. The separate Glue expressions) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 587 Td (still need parity tests.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 569 Td (Evaluation) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 544 Td (A stratified holdout returns ranking metrics. There is no temporal split, cross-validation or) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 531 Td (calibration analysis.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 513 Td (Drift) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 488 Td (PSI captures distribution movement including values beyond reference range. Thresholds and) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 475 Td (alert policy are not implemented.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 457 Td (Prediction history) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 432 Td (SQL uses customer_id plus prediction_date as the primary key and constrains probability/risk) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 419 Td (values.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 401 Td (AI boundary) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 376 Td (Bedrock receives aggregate monitoring metrics only and remains advisory; deterministic alerts) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 363 Td (should control operations.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 345 Td (Security baseline) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 320 Td (No real credentials should be stored in Git. Runtime identities should use least-privilege) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 307 Td (roles, secrets should come from a managed secret backend, logs should avoid raw personal data,) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 294 Td (and CI permissions should remain read-only unless a workflow genuinely needs write access.) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 4256 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (12) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Testing and CI Evidence) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 681 Td (A passing CI badge proves only the checks that CI actually executes. It is not proof of) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 668 Td (deployment or end-to-end service integration.) Tj ET
+0.08 0.25 0.43 rg 52 634 510 20 re f
+BT /FB 8 Tf 1 1 1 rg 57 642 Td (Area) Tj ET
+BT /FB 8 Tf 1 1 1 rg 207 642 Td (Evidence) Tj ET
+BT /FB 8 Tf 1 1 1 rg 387 642 Td (What it does not prove) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 622 Td (Data quality) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 622 Td (Missing, duplicate, negative, NaN,) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 612 Td (non-numeric and invalid labels) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 622 Td (Real source extraction) Tj ET
+0.96 0.97 0.98 rg 52 574 510 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 592 Td (Feature engineering) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 592 Td (Expected columns and nonnegative) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 582 Td (ratios) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 592 Td (Spark feature parity) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 562 Td (Training) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 562 Td (Reproducible run and bounded) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 552 Td (metrics) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 562 Td (Generalization or production) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 552 Td (accuracy) Tj ET
+0.96 0.97 0.98 rg 52 514 510 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 532 Td (Scoring) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 532 Td (Probability range and risk-band) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 522 Td (vocabulary) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 532 Td (S3/SQL publication) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 502 Td (Monitoring) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 502 Td (PSI identity/out-of-range and) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 492 Td (invalid probabilities) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 502 Td (Alert integration) Tj ET
+0.96 0.97 0.98 rg 52 464 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 472 Td (AI) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 472 Td (Prompt and disabled configuration) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 387 472 Td (Live Bedrock behavior) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 452 Td (Best interview wording) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 427 Td (I tested input validation, feature creation, deterministic training with a fixed seed,) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 414 Td (probability/risk-band output, PSI edge cases, classification monitoring and the safe disabled) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 401 Td (AI path. Those tests prove the local batch functions, not business effectiveness or) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 388 Td (deployment. I would add temporal validation, model serialization round trips, S3/SQL) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 375 Td (integration and staging orchestration before production.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 357 Td (Tests to add next) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 332 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 332 Td (Temporal train/validation split using realistic observation and outcome dates.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 317 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 317 Td (Model serialization/load round-trip with schema and version metadata.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 302 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 302 Td (Feature parity test between pandas and Glue/Spark expressions.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 287 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 287 Td (S3 adapter test with botocore Stubber plus Parquet schema assertion.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 272 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 272 Td (PostgreSQL integration test for historical prediction upserts.) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 3577 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (13) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Gaps and Critical Risks) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 681 Td (These are not reasons to hide the project. They are the strongest discussion points because) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 668 Td (they show that you can distinguish a portfolio implementation from a production system.) Tj ET
+0.08 0.25 0.43 rg 52 634 530 20 re f
+BT /FB 8 Tf 1 1 1 rg 57 642 Td (Severity) Tj ET
+BT /FB 8 Tf 1 1 1 rg 127 642 Td (Risk) Tj ET
+BT /FB 8 Tf 1 1 1 rg 317 642 Td (Consequence / response) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 622 Td (Critical) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 622 Td (No point-in-time label construction) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 622 Td (Future information may leak into training; define) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 612 Td (observation and outcome windows.) Tj ET
+0.96 0.97 0.98 rg 52 574 530 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 592 Td (High) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 592 Td (No model persistence or registry) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 592 Td (Scoring cannot reliably select/version an approved) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 582 Td (model; add artifact storage and promotion.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 562 Td (High) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 562 Td (No deployable orchestration) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 562 Td (Functions are not scheduled end to end; implement) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 552 Td (parameterized batch orchestration.) Tj ET
+0.96 0.97 0.98 rg 52 514 530 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 532 Td (High) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 532 Td (No production accuracy evidence) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 532 Td (Synthetic fixtures only prove code behavior;) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 522 Td (validate on representative held-out data.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 502 Td (Medium) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 502 Td (Illustrative fixed risk bands) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 502 Td (Business actions may be inefficient;) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 492 Td (optimize/version thresholds by cost and capacity.) Tj ET
+0.96 0.97 0.98 rg 52 454 530 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 472 Td (Medium) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 472 Td (Glue/pandas feature drift) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 472 Td (Separate expressions can diverge; add parity tests) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 462 Td (or one feature specification.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 442 Td (Medium) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 442 Td (No alert workflow) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 442 Td (Metrics are calculated but not acted on; define) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 432 Td (thresholds, owners and routing.) Tj ET
+0.96 0.97 0.98 rg 52 394 530 30 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 412 Td (Medium) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 127 412 Td (S3/SQL writes not integrated) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 412 Td (Publication correctness is unproven; add contract) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 317 402 Td (and integration tests.) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 2290 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (14) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Production-Ready Redesign) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (Phase 1: Point-in-time dataset) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 656 Td (Create observation dates, backward-looking features and future outcome labels; add leakage) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 643 Td (tests and dataset snapshots.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 625 Td (Phase 2: Model lifecycle) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 600 Td (Serialize the full sklearn Pipeline, store schema/metrics/code version and add registry-style) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 587 Td (approval and rollback.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 569 Td (Phase 3: Orchestration) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 544 Td (Build scheduled validation, feature, train/approve, score, publish and monitor tasks with) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 531 Td (idempotent batch IDs.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 513 Td (Phase 4: Evidence) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 488 Td (Use temporal validation, calibration, subgroup/error analysis and model/data tests on) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 475 Td (representative data.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 457 Td (Phase 5: Operations) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 432 Td (Publish versioned predictions, monitor drift/performance/freshness, alert owners and retrain) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 419 Td (only through controlled policy.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 401 Td (How to answer design follow-ups) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 376 Td (Use Context -> Decision -> Trade-off -> Evidence -> Next step. State what the repository) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 363 Td (demonstrates, cite the exact test or implementation, acknowledge the boundary, and explain the) Tj ET
+BT /FR 9.5 Tf 0.12 0.15 0.19 rg 52 350 Td (production change. Never invent deployment history.) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 4856 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (15) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Fifty Interview Questions) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 681 Td (The answers below are written as spoken interview responses. Learn the ideas rather than) Tj ET
+BT /FR 9.5 Tf 0.33 0.37 0.43 rg 52 668 Td (memorizing every word.) Tj ET
+0.96 0.48 0.10 rg 52 647 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 652 Td (1) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 650 Td (Explain the project end to end.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 632 Td (Interview-ready answer: The pipeline validates customer data, builds shared) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 620 Td (tenure-normalized features, trains a scaled class-weighted logistic regression, evaluates) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 608 Td (it, scores churn probability and risk bands, and computes drift/performance metrics.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 596 Td (Predictions can be written to S3 and modeled historically in PostgreSQL.) Tj ET
+0.96 0.48 0.10 rg 52 570 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 575 Td (2) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 573 Td (Why logistic regression?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 555 Td (Interview-ready answer: It is fast, interpretable and provides a strong baseline for tabular) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 543 Td (churn data. I would compare it with tree-based models using temporal validation before) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 531 Td (choosing production performance.) Tj ET
+0.96 0.48 0.10 rg 52 505 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 510 Td (3) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 508 Td (Why StandardScaler?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 490 Td (Interview-ready answer: The numeric features use different units. Scaling stabilizes) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 478 Td (logistic-regression optimization and keeps coefficients more comparable.) Tj ET
+0.96 0.48 0.10 rg 52 452 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 457 Td (4) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 455 Td (Why keep preprocessing inside sklearn Pipeline?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 437 Td (Interview-ready answer: The fitted scaler and model travel together, reducing the risk that) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 425 Td (scoring uses different preprocessing from training.) Tj ET
+0.96 0.48 0.10 rg 52 399 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 404 Td (5) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 402 Td (How do you prevent training-serving skew?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 384 Td (Interview-ready answer: Training and score_customers both call build_features. I would also) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 372 Td (serialize the whole Pipeline and add parity tests against any Spark feature implementation.) Tj ET
+0.96 0.48 0.10 rg 52 346 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 351 Td (6) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 349 Td (Why divide by tenure?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 331 Td (Interview-ready answer: It normalizes charges and support activity by customer lifetime,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 319 Td (distinguishing sustained rates from raw totals. Tenure is clipped at one to avoid division) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 307 Td (by zero.) Tj ET
+0.96 0.48 0.10 rg 52 281 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 286 Td (7) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 284 Td (Is clipping zero tenure always correct?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 266 Td (Interview-ready answer: It is a practical numerical rule, not a business truth. I would) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 254 Td (confirm new-customer semantics and potentially add an explicit new_customer flag.) Tj ET
+0.96 0.48 0.10 rg 52 228 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 233 Td (8) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 231 Td (How do you validate inputs?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 213 Td (Interview-ready answer: The contract checks required columns, non-empty data, unique IDs,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 201 Td (finite/non-negative numeric values and a binary label before training.) Tj ET
+0.96 0.48 0.10 rg 52 175 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 180 Td (9) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 178 Td (Why class_weight=balanced?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 160 Td (Interview-ready answer: Churn is often imbalanced. Balanced class weights make errors on the) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 148 Td (minority class matter more, but I would still evaluate precision, recall and business cost.) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 4774 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (16) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (10) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (Why use stratify in train_test_split?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: It preserves class proportions in train and test and reduces the) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (chance of an unusable holdout. It does not solve temporal leakage.) Tj ET
+0.96 0.48 0.10 rg 52 625 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 630 Td (11) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 628 Td (What metrics do you use?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 610 Td (Interview-ready answer: ROC-AUC measures ranking and average precision emphasizes) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (positive-class retrieval under imbalance. For operations I would also choose) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (precision/recall at the intervention capacity and calibration.) Tj ET
+0.96 0.48 0.10 rg 52 560 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 565 Td (12) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 563 Td (Is ROC-AUC enough?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 545 Td (Interview-ready answer: No. A model can rank well but produce poorly calibrated) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (probabilities or weak precision at the selected threshold. Business decisions need) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 521 Td (threshold-specific and calibration metrics.) Tj ET
+0.96 0.48 0.10 rg 52 495 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 500 Td (13) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 498 Td (How are risk bands chosen?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 480 Td (Interview-ready answer: The current 0.33 and 0.66 thresholds are illustrative. Production) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (thresholds should reflect retention capacity, false-positive cost and observed outcomes, and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 456 Td (must be versioned.) Tj ET
+0.96 0.48 0.10 rg 52 430 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 435 Td (14) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 433 Td (What is PSI?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 415 Td (Interview-ready answer: Population Stability Index compares binned reference and current) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (distributions. It is a drift indicator, not proof that model performance declined.) Tj ET
+0.96 0.48 0.10 rg 52 377 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 382 Td (15) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 380 Td (How does PSI handle out-of-range values?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 362 Td (Interview-ready answer: The implementation sets the outer bin edges to negative and positive) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 350 Td (infinity so current values outside the training range are still counted.) Tj ET
+0.96 0.48 0.10 rg 52 324 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 329 Td (16) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 327 Td (What if labels are delayed?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 309 Td (Interview-ready answer: I would monitor feature and prediction distributions immediately,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 297 Td (then calculate performance metrics when the outcome window matures. Reports must use the) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 285 Td (correct label availability date.) Tj ET
+0.96 0.48 0.10 rg 52 259 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 264 Td (17) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 262 Td (Where is point-in-time correctness?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 244 Td (Interview-ready answer: The repository assumes an already prepared dataset; it does not) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 232 Td (construct temporal labels or snapshots. That is the biggest modeling risk and should be) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 220 Td (implemented before production claims.) Tj ET
+0.96 0.48 0.10 rg 52 194 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 199 Td (18) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 197 Td (How could leakage happen?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 179 Td (Interview-ready answer: Features might include activity after the prediction date or labels) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 167 Td (could overlap the observation window. I would define explicit observation/outcome windows) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 155 Td (and enforce timestamps in dataset SQL.) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 4888 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (17) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (19) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (Where is MLflow or a registry?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: It is not implemented. Training returns an in-memory Pipeline. I) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (would add versioned artifact storage, metadata, approval and rollback rather than claim) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 639 Td (registry support.) Tj ET
+0.96 0.48 0.10 rg 52 613 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 618 Td (20) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 616 Td (How is the model deployed?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (Interview-ready answer: It is not deployed. The repository implements local batch functions.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (Production needs model serialization, scheduled scoring, artifact selection and monitored) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 574 Td (publication.) Tj ET
+0.96 0.48 0.10 rg 52 548 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 553 Td (21) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 551 Td (How do predictions retain history?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (Interview-ready answer: The SQL table uses customer_id and prediction_date as a composite) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 521 Td (primary key, allowing one snapshot per customer per date.) Tj ET
+0.96 0.48 0.10 rg 52 495 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 500 Td (22) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 498 Td (How would you prove reproducibility?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 480 Td (Interview-ready answer: Pin dependencies, version data/features/code, fix random seeds,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (serialize the full Pipeline and verify that the same inputs and artifact produce identical) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 456 Td (probabilities.) Tj ET
+0.96 0.48 0.10 rg 52 430 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 435 Td (23) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 433 Td (What happens if a feature is NaN or infinite?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 415 Td (Interview-ready answer: Validation rejects it with a clear error before sklearn runs. That) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (gives a controlled data-quality failure instead of an opaque model error.) Tj ET
+0.96 0.48 0.10 rg 52 377 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 382 Td (24) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 380 Td (What is the Glue file?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 362 Td (Interview-ready answer: It contains equivalent Spark feature expressions for distributed) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 350 Td (preparation, but it is not a complete Glue entry point. I would add job arguments,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 338 Td (input/output and parity tests before using it.) Tj ET
+0.96 0.48 0.10 rg 52 312 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 317 Td (25) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 315 Td (What is the first production change?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 297 Td (Interview-ready answer: Build a point-in-time correct training dataset and leakage tests. A) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 285 Td (well-deployed model trained on leaked data is still wrong.) Tj ET
+0.96 0.48 0.10 rg 52 259 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 264 Td (26) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 262 Td (Did you deploy this project?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 244 Td (Interview-ready answer: I describe it as a working portfolio implementation with passing) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 232 Td (unit CI, not as a production deployment. The repository proves specific code paths; a) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 220 Td (staging environment and integration evidence are still required.) Tj ET
+0.96 0.48 0.10 rg 52 194 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 199 Td (27) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 197 Td (What exactly did you test?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 179 Td (Interview-ready answer: I tested input contracts, feature calculations, deterministic local) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 167 Td (training, probability/risk output, PSI edge cases and classification monitoring. Those tests) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 155 Td (run offline and isolate deterministic behavior, so I do not claim they validate live) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 143 Td (external services.) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 5179 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (18) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (28) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (Why does green CI not prove the platform works?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: CI executes syntax and unit tests, but it does not automatically) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (prove networking, IAM, service configuration, runtime compatibility or end-to-end data) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 639 Td (correctness. I would add integration and staging smoke tests for that evidence.) Tj ET
+0.96 0.48 0.10 rg 52 613 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 618 Td (29) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 616 Td (What is the biggest gap?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (Interview-ready answer: The most important gap is absence of point-in-time label/feature) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (construction and a model lifecycle. I would address it before calling the system) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 574 Td (production-ready.) Tj ET
+0.96 0.48 0.10 rg 52 548 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 553 Td (30) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 551 Td (How do you handle secrets?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (Interview-ready answer: The repository should contain examples only. I would use workload) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 521 Td (identities or IAM roles for cloud access and a managed secret backend for database) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 509 Td (credentials, with least privilege and rotation.) Tj ET
+0.96 0.48 0.10 rg 52 483 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 488 Td (31) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 486 Td (How do you handle logging?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (Interview-ready answer: I would use structured logs with run or batch identifiers, input and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 456 Td (output counts, durations, quality results and error categories. I would avoid raw customer) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 444 Td (data and make logs searchable in a central platform.) Tj ET
+0.96 0.48 0.10 rg 52 418 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 423 Td (32) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 421 Td (How do you monitor data freshness?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (Interview-ready answer: I would record the newest processed event or business timestamp and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 391 Td (compare it with the freshness SLA. Breaches should alert with the affected dataset and last) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 379 Td (successful run.) Tj ET
+0.96 0.48 0.10 rg 52 353 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 358 Td (33) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 356 Td (How do you make retries safe?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 338 Td (Interview-ready answer: Every side effect needs an idempotency key or deterministic batch) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 326 Td (identifier. I would isolate run outputs, use upserts or transactional publication, and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 314 Td (ensure a retry cannot duplicate or overwrite another run.) Tj ET
+0.96 0.48 0.10 rg 52 288 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 293 Td (34) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 291 Td (How do you support backfills?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 273 Td (Interview-ready answer: I would parameterize a bounded time range, use run-specific outputs,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 261 Td (limit concurrency, reconcile every partition, and record completion in a control table so a) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 249 Td (failed slice can be resumed safely.) Tj ET
+0.96 0.48 0.10 rg 52 223 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 228 Td (35) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 226 Td (How do you prevent schema drift?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 208 Td (Interview-ready answer: I would define an explicit versioned contract, validate it at) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 196 Td (ingestion, quarantine incompatible records, test producer-consumer compatibility and allow) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 184 Td (only reviewed evolution.) Tj ET
+0.96 0.48 0.10 rg 52 158 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 163 Td (36) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 161 Td (How would you improve CI?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 143 Td (Interview-ready answer: I would keep fast unit checks, add linting and dependency scanning,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 131 Td (then add targeted integration jobs using ephemeral infrastructure. Live staging smoke tests) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 119 Td (should run separately with tightly scoped credentials.) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Length 5180 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (19) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (37) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (How would you test external services?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: I would combine client stubs for request contracts, local or) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (containerized substitutes where accurate, and a small real staging test for service-specific) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 639 Td (behavior that emulators cannot prove.) Tj ET
+0.96 0.48 0.10 rg 52 613 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 618 Td (38) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 616 Td (How do you protect customer data?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (Interview-ready answer: I would minimize collected fields, encrypt in transit and at rest,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (restrict access by role and prefix/table, mask sensitive fields, set retention policies and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 574 Td (audit access.) Tj ET
+0.96 0.48 0.10 rg 52 548 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 553 Td (39) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 551 Td (How do you estimate capacity?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (Interview-ready answer: I would measure arrival rate, record size, daily volume, peak) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 521 Td (concurrency, transformation cost and downstream throughput. Those numbers drive) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 509 Td (partitioning, compute sizing and retention choices.) Tj ET
+0.96 0.48 0.10 rg 52 483 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 488 Td (40) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 486 Td (What happens when data quality fails?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (Interview-ready answer: Production should stop publication for critical failures, persist) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 456 Td (rejected records with reason codes, alert the owner and support corrected replay.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 444 Td (Warning-level rules can continue with explicit metrics.) Tj ET
+0.96 0.48 0.10 rg 52 418 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 423 Td (41) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 421 Td (How do you prove lineage?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (Interview-ready answer: I would attach run ID, source window, input location, code version) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 391 Td (and output location to a run manifest and integrate those records with a catalog or lineage) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 379 Td (platform.) Tj ET
+0.96 0.48 0.10 rg 52 353 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 358 Td (42) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 356 Td (What would you document for operations?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 338 Td (Interview-ready answer: I would document SLAs, owners, dependencies, restart and backfill) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 326 Td (procedures, common failure signatures, data contracts, access requirements and rollback) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 314 Td (steps.) Tj ET
+0.96 0.48 0.10 rg 52 288 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 293 Td (43) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 291 Td (What would fail first at scale?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 273 Td (Interview-ready answer: The first bottleneck is likely local pandas feature preparation and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 261 Td (the absence of distributed, versioned orchestration. I would validate that with load tests) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 249 Td (and redesign before increasing volume.) Tj ET
+0.96 0.48 0.10 rg 52 223 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 228 Td (44) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 226 Td (How do you control cost?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 208 Td (Interview-ready answer: I would right-size compute, prune partitions, compact small files,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 196 Td (apply storage lifecycle rules, cap retries and timeouts, and publish per-run cost and volume) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 184 Td (metrics.) Tj ET
+0.96 0.48 0.10 rg 52 158 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 163 Td (45) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 161 Td (What would you change in your first week?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 143 Td (Interview-ready answer: I would first add evidence around the highest-risk path: define) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 131 Td (temporal observation/outcome windows, add leakage tests, serialize/version the Pipeline and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 119 Td (test publication. Then I would update the runbook and architecture based on measured) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 107 Td (results.) Tj ET
+endstream
+endobj
+43 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 42 0 R >>
+endobj
+44 0 obj
+<< /Length 3045 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (20) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Interview Questions \(continued\)) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.96 0.48 0.10 rg 52 678 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 683 Td (46) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 681 Td (How do you explain a limitation without weakening your interview?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 663 Td (Interview-ready answer: I state the boundary directly, explain why the current choice was) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 651 Td (reasonable for a portfolio scope, cite what is actually tested, and give a concrete) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 639 Td (production solution.) Tj ET
+0.96 0.48 0.10 rg 52 613 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 618 Td (47) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 616 Td (Why should an interviewer value this project?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 598 Td (Interview-ready answer: It shows that I understand the complete data lifecycle and can) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 586 Td (review my own design critically. I can discuss implementation, tests, failure modes and) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 574 Td (realistic hardening rather than only drawing an architecture.) Tj ET
+0.96 0.48 0.10 rg 52 548 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 553 Td (48) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 551 Td (How would you perform a production readiness review?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 533 Td (Interview-ready answer: I would review correctness, recoverability, security, scalability,) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 521 Td (observability, deployment, cost and ownership. Each requirement needs evidence, not only) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 509 Td (code presence.) Tj ET
+0.96 0.48 0.10 rg 52 483 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 488 Td (49) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 486 Td (What is your rollback strategy?) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 468 Td (Interview-ready answer: I would version code and data outputs, publish atomically, retain) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 456 Td (the previous valid version, and make consumers switch through a controlled pointer or view.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 444 Td (Rollback steps must be tested.) Tj ET
+0.96 0.48 0.10 rg 52 418 24 18 re f
+BT /FB 9 Tf 1 1 1 rg 57 423 Td (50) Tj ET
+BT /FB 10.5 Tf 0.06 0.20 0.36 rg 86 421 Td (Give the honest one-line status.) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 403 Td (Interview-ready answer: This is a compact, technically useful portfolio implementation with) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 391 Td (verified unit behavior and clearly documented production gaps; it is not a fully deployed) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 52 379 Td (platform.) Tj ET
+endstream
+endobj
+45 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 44 0 R >>
+endobj
+46 0 obj
+<< /Length 2101 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (21) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Rapid Revision Sheet) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 681 Td (One-minute memory map) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 656 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 656 Td (Flow: validate -> shared features -> sklearn Pipeline -> probabilities/risk bands ->) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 644 Td (monitor -> optional S3.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 629 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 629 Td (Model: scaled, class-weighted logistic regression.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 614 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 614 Td (Metrics: ROC-AUC and average precision; thresholds remain illustrative.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 599 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 599 Td (Monitoring: PSI plus label-based metrics when outcomes exist.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 584 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 584 Td (Testing truth: local functional behavior, not model business value or deployment.) Tj ET
+BT /FB 10 Tf 0.96 0.48 0.10 rg 52 569 Td (>) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 569 Td (Top risk: no point-in-time label construction; possible leakage if source data is) Tj ET
+BT /FR 9.2 Tf 0.12 0.15 0.19 rg 68 557 Td (prepared incorrectly.) Tj ET
+BT /FB 15 Tf 0.06 0.27 0.48 rg 52 542 Td (Safe sentence when challenged) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 517 Td (The repository demonstrates the design and unit-tests specific offline behavior. It does not) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 504 Td (prove every external integration or a production deployment. I can show exactly what is) Tj ET
+BT /FB 9.5 Tf 0.12 0.15 0.19 rg 52 491 Td (verified and what I would add to prove the remaining path.) Tj ET
+endstream
+endobj
+47 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 46 0 R >>
+endobj
+48 0 obj
+<< /Length 2268 >>
+stream
+0.055 0.11 0.20 rg 0 750 612 42 re f
+BT /FB 11 Tf 1 1 1 rg 52 766 Td (Customer Churn ML Pipeline) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 52 26 Td (Interview Handbook | SudamaPandit/ai-ml-customer-churn-data-platform) Tj ET
+BT /FR 8 Tf 0.35 0.39 0.45 rg 535 26 Td (22) Tj ET
+BT /FB 22 Tf 0.06 0.20 0.36 rg 52 718 Td (Glossary) Tj ET
+0.96 0.48 0.10 rg 52 704 72 3 re f
+0.08 0.25 0.43 rg 52 665 510 20 re f
+BT /FB 8 Tf 1 1 1 rg 57 673 Td (Term) Tj ET
+BT /FB 8 Tf 1 1 1 rg 207 673 Td (Meaning) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 653 Td (Churn) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 653 Td (Customer stops or is likely to stop using a service.) Tj ET
+0.96 0.97 0.98 rg 52 625 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 633 Td (Feature) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 633 Td (Input variable used by a model.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 613 Td (Label) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 613 Td (Known outcome used for supervised training.) Tj ET
+0.96 0.97 0.98 rg 52 585 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 593 Td (Leakage) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 593 Td (Training uses information unavailable at prediction time.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 573 Td (Pipeline) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 573 Td (Bundled preprocessing and model steps.) Tj ET
+0.96 0.97 0.98 rg 52 545 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 553 Td (ROC-AUC) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 553 Td (Ranking quality across classification thresholds.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 533 Td (Average precision) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 533 Td (Precision-recall summary useful for imbalance.) Tj ET
+0.96 0.97 0.98 rg 52 505 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 513 Td (Calibration) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 513 Td (Agreement between predicted probability and outcome frequency.) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 493 Td (PSI) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 493 Td (Population Stability Index for distribution drift.) Tj ET
+0.96 0.97 0.98 rg 52 465 510 20 re f
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 57 473 Td (Model registry) Tj ET
+BT /FR 7.7 Tf 0.12 0.15 0.19 rg 207 473 Td (Versioned model artifacts and lifecycle metadata.) Tj ET
+endstream
+endobj
+49 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /FR 3 0 R /FB 4 0 R /FM 5 0 R >> >> /Contents 48 0 R >>
+endobj
+50 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 667 558 685] /Border [0 0 0] /A << /S /GoTo /D [13 0 R /Fit] >> >>
+endobj
+51 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 625 558 643] /Border [0 0 0] /A << /S /GoTo /D [15 0 R /Fit] >> >>
+endobj
+52 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 583 558 601] /Border [0 0 0] /A << /S /GoTo /D [17 0 R /Fit] >> >>
+endobj
+53 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 541 558 559] /Border [0 0 0] /A << /S /GoTo /D [19 0 R /Fit] >> >>
+endobj
+54 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 499 558 517] /Border [0 0 0] /A << /S /GoTo /D [21 0 R /Fit] >> >>
+endobj
+55 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 457 558 475] /Border [0 0 0] /A << /S /GoTo /D [23 0 R /Fit] >> >>
+endobj
+56 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 415 558 433] /Border [0 0 0] /A << /S /GoTo /D [27 0 R /Fit] >> >>
+endobj
+57 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 682 558 700] /Border [0 0 0] /A << /S /GoTo /D [29 0 R /Fit] >> >>
+endobj
+58 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 640 558 658] /Border [0 0 0] /A << /S /GoTo /D [31 0 R /Fit] >> >>
+endobj
+59 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 598 558 616] /Border [0 0 0] /A << /S /GoTo /D [33 0 R /Fit] >> >>
+endobj
+60 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 556 558 574] /Border [0 0 0] /A << /S /GoTo /D [35 0 R /Fit] >> >>
+endobj
+61 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 514 558 532] /Border [0 0 0] /A << /S /GoTo /D [47 0 R /Fit] >> >>
+endobj
+62 0 obj
+<< /Type /Annot /Subtype /Link /Rect [58 472 558 490] /Border [0 0 0] /A << /S /GoTo /D [49 0 R /Fit] >> >>
+endobj
+63 0 obj
+<< /Type /Outlines /First 64 0 R /Last 76 0 R /Count 13 >>
+endobj
+64 0 obj
+<< /Title (1. Executive summary) /Parent 63 0 R /Next 65 0 R /Dest [13 0 R /Fit] >>
+endobj
+65 0 obj
+<< /Title (2. Beginner foundations) /Parent 63 0 R /Prev 64 0 R /Next 66 0 R /Dest [15 0 R /Fit] >>
+endobj
+66 0 obj
+<< /Title (3. Architecture diagram) /Parent 63 0 R /Prev 65 0 R /Next 67 0 R /Dest [17 0 R /Fit] >>
+endobj
+67 0 obj
+<< /Title (4. End-to-end data flow) /Parent 63 0 R /Prev 66 0 R /Next 68 0 R /Dest [19 0 R /Fit] >>
+endobj
+68 0 obj
+<< /Title (5. Repository structure) /Parent 63 0 R /Prev 67 0 R /Next 69 0 R /Dest [21 0 R /Fit] >>
+endobj
+69 0 obj
+<< /Title (6. Folder-wise code walkthrough) /Parent 63 0 R /Prev 68 0 R /Next 70 0 R /Dest [23 0 R /Fit] >>
+endobj
+70 0 obj
+<< /Title (7. Quality, reliability and security) /Parent 63 0 R /Prev 69 0 R /Next 71 0 R /Dest [27 0 R /Fit] >>
+endobj
+71 0 obj
+<< /Title (8. Testing and CI evidence) /Parent 63 0 R /Prev 70 0 R /Next 72 0 R /Dest [29 0 R /Fit] >>
+endobj
+72 0 obj
+<< /Title (9. Gaps and critical risks) /Parent 63 0 R /Prev 71 0 R /Next 73 0 R /Dest [31 0 R /Fit] >>
+endobj
+73 0 obj
+<< /Title (10. Production-ready redesign) /Parent 63 0 R /Prev 72 0 R /Next 74 0 R /Dest [33 0 R /Fit] >>
+endobj
+74 0 obj
+<< /Title (11. Fifty interview questions) /Parent 63 0 R /Prev 73 0 R /Next 75 0 R /Dest [35 0 R /Fit] >>
+endobj
+75 0 obj
+<< /Title (12. Rapid revision sheet) /Parent 63 0 R /Prev 74 0 R /Next 76 0 R /Dest [47 0 R /Fit] >>
+endobj
+76 0 obj
+<< /Title (13. Glossary) /Parent 63 0 R /Prev 75 0 R /Dest [49 0 R /Fit] >>
+endobj
+xref
+0 77
+0000000000 65535 f 
+0000000015 00000 n 
+0000000104 00000 n 
+0000000308 00000 n 
+0000000378 00000 n 
+0000000453 00000 n 
+0000000521 00000 n 
+0000001971 00000 n 
+0000002117 00000 n 
+0000003385 00000 n 
+0000003590 00000 n 
+0000004745 00000 n 
+0000004945 00000 n 
+0000008031 00000 n 
+0000008179 00000 n 
+0000010605 00000 n 
+0000010753 00000 n 
+0000014178 00000 n 
+0000014326 00000 n 
+0000016729 00000 n 
+0000016877 00000 n 
+0000020503 00000 n 
+0000020651 00000 n 
+0000025211 00000 n 
+0000025359 00000 n 
+0000026555 00000 n 
+0000026703 00000 n 
+0000029335 00000 n 
+0000029483 00000 n 
+0000033792 00000 n 
+0000033940 00000 n 
+0000037570 00000 n 
+0000037718 00000 n 
+0000040061 00000 n 
+0000040209 00000 n 
+0000045118 00000 n 
+0000045266 00000 n 
+0000050093 00000 n 
+0000050241 00000 n 
+0000055182 00000 n 
+0000055330 00000 n 
+0000060562 00000 n 
+0000060710 00000 n 
+0000065943 00000 n 
+0000066091 00000 n 
+0000069189 00000 n 
+0000069337 00000 n 
+0000071491 00000 n 
+0000071639 00000 n 
+0000073960 00000 n 
+0000074108 00000 n 
+0000074232 00000 n 
+0000074356 00000 n 
+0000074480 00000 n 
+0000074604 00000 n 
+0000074728 00000 n 
+0000074852 00000 n 
+0000074976 00000 n 
+0000075100 00000 n 
+0000075224 00000 n 
+0000075348 00000 n 
+0000075472 00000 n 
+0000075596 00000 n 
+0000075720 00000 n 
+0000075795 00000 n 
+0000075895 00000 n 
+0000076011 00000 n 
+0000076127 00000 n 
+0000076243 00000 n 
+0000076359 00000 n 
+0000076483 00000 n 
+0000076612 00000 n 
+0000076731 00000 n 
+0000076850 00000 n 
+0000076972 00000 n 
+0000077094 00000 n 
+0000077211 00000 n 
+trailer
+<< /Size 77 /Root 1 0 R >>
+startxref
+77303
+%%EOF
