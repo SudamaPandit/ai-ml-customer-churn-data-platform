@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import numpy as np
 import pandas as pd
 
 REQUIRED_COLUMNS = {
@@ -9,6 +10,7 @@ REQUIRED_COLUMNS = {
     "support_tickets",
     "churned",
 }
+NUMERIC_COLUMNS = ["tenure_months", "monthly_charges", "support_tickets"]
 
 
 def validate_customer_dataset(df: pd.DataFrame) -> dict[str, float | int]:
@@ -17,21 +19,21 @@ def validate_customer_dataset(df: pd.DataFrame) -> dict[str, float | int]:
         raise ValueError(f"Missing required columns: {sorted(missing)}")
     if df.empty:
         raise ValueError("Customer dataset must not be empty")
-    if df["customer_id"].isna().any():
-        raise ValueError("customer_id contains nulls")
-    if not df["customer_id"].is_unique:
-        raise ValueError("customer_id must be unique")
-    if df["tenure_months"].lt(0).any():
-        raise ValueError("tenure_months cannot be negative")
-    if df["monthly_charges"].lt(0).any():
-        raise ValueError("monthly_charges cannot be negative")
-    if df["support_tickets"].lt(0).any():
-        raise ValueError("support_tickets cannot be negative")
-    if not df["churned"].isin([0, 1, True, False]).all():
+    if df["customer_id"].isna().any() or not df["customer_id"].is_unique:
+        raise ValueError("customer_id must be non-null and unique")
+
+    numeric = df[NUMERIC_COLUMNS].apply(pd.to_numeric, errors="coerce")
+    if numeric.isna().any().any() or not np.isfinite(numeric.to_numpy()).all():
+        raise ValueError("numeric features must be finite numbers")
+    if numeric.lt(0).any().any():
+        raise ValueError("tenure, charges, and ticket counts cannot be negative")
+
+    target = pd.to_numeric(df["churned"], errors="coerce")
+    if target.isna().any() or not target.isin([0, 1]).all():
         raise ValueError("churned must be binary")
 
     return {
         "row_count": int(len(df)),
-        "churn_rate": float(df["churned"].astype(int).mean()),
+        "churn_rate": float(target.mean()),
         "null_rate": float(df.isna().mean().mean()),
     }

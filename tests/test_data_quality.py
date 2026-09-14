@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import pytest
 
@@ -13,24 +14,23 @@ def sample_df():
 
 def test_valid_dataset_returns_metrics():
     metrics = validate_customer_dataset(sample_df())
-    assert metrics["row_count"] == 2
-    assert metrics["churn_rate"] == 0.5
+    assert metrics["row_count"] == 2 and metrics["churn_rate"] == 0.5
+
+
+@pytest.mark.parametrize("column,value,message", [
+    ("customer_id", 1, "unique"),
+    ("monthly_charges", -1, "negative"),
+    ("support_tickets", np.nan, "finite"),
+    ("tenure_months", "bad", "finite"),
+    ("churned", 2, "binary"),
+])
+def test_invalid_dataset_fails(column, value, message):
+    df = sample_df()
+    df.loc[1, column] = value
+    with pytest.raises(ValueError, match=message):
+        validate_customer_dataset(df)
 
 
 def test_missing_columns_fail():
     with pytest.raises(ValueError, match="Missing required columns"):
         validate_customer_dataset(sample_df().drop(columns=["churned"]))
-
-
-def test_duplicate_customer_ids_fail():
-    df = sample_df()
-    df.loc[1, "customer_id"] = 1
-    with pytest.raises(ValueError, match="unique"):
-        validate_customer_dataset(df)
-
-
-def test_negative_values_fail():
-    df = sample_df()
-    df.loc[0, "monthly_charges"] = -1
-    with pytest.raises(ValueError, match="monthly_charges"):
-        validate_customer_dataset(df)
